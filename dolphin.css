@@ -12,7 +12,7 @@ h1 {
 
 p {
   font-family:cursive;
-  align-content: flex-start;
+  text-align:left;
 }
 
 li {
@@ -63,6 +63,7 @@ a:hover{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 
 
 
