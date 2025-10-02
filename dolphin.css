@@ -29,8 +29,14 @@ li:hover {
   border-radius: 3px;
 }
 
+.d-pics{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-img {
+.d-pics>img {
   border-style:solid;
   border-color: rgb(14, 74, 128);
   width: 650px;
@@ -39,7 +45,7 @@ img {
   flex-direction: row;
   align-content: center;
 }
-img:hover {
+.d-pics>img:hover {
   border-color: rgb(21, 143, 212);
   transform: translateY(-15px);
   transition: transform 0.3s ease-in-out;
@@ -61,5 +67,6 @@ a:hover{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 
 
