@@ -36,6 +36,21 @@ h3 {
   max-width: 800px;
 }
 
+a{
+  font-size: 20px;
+}
+a:hover{
+  font-size: 30px;
+  color: azure;
+}
+
+.navbar{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 
 .animal-card img,
 .big-croc {
