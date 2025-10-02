@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(157, 174, 204);
+}
+
+h1 {
+  font-family:cursive;
+}
+
+p {
+  font-family:cursive;
+  align-content: flex-start;
+}
+
+li {
+  font-family:cursive;
+  border-style:solid;
+  border-color: rgb(14, 74, 128);
+  background-color: rgb(21, 143, 212);
+}
+
+li:hover {
+  border-color: white;
+  transform: translateX(-15px);
+  transition: transform 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+img {
+  border-style:solid;
+  border-color: rgb(14, 74, 128);
+  width: 650px;
+  height: 350px;
+  align-content:space-between;
+  flex-direction: row;
+  align-content: center;
+}
+img:hover {
+  border-color: rgb(21, 143, 212);
+  transform: translateY(-15px);
+  transition: transform 0.3s ease-in-out;
+  border-radius: 3px;
+}
