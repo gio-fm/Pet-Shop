@@ -29,25 +29,24 @@ li:hover {
   border-radius: 3px;
 }
 
-.d-pics{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.d-pics {
+  display: flex;
+  flex-wrap: wrap;         /* allows images to wrap to new lines if needed */
+  justify-content: center; /* keeps the whole row centered */
+  gap: 20px;               /* evenly spaces out images */
 }
 
-.d-pics>img {
-  border-style:solid;
-  border-color: rgb(14, 74, 128);
-  width: 650px;
+.d-pics img {
+  width: 650px;            /* fixed size like you had */
   height: 350px;
+  border: solid rgb(14, 74, 128);
+  transition: transform 0.3s ease-in-out, border-color 0.3s; /* smoother hover */
 }
-.d-pics>img:hover {
+
+.d-pics img:hover {
   border-color: rgb(21, 143, 212);
   transform: translateY(-15px);
-  transition: transform 0.3s ease-in-out;
   border-radius: 3px;
-
 }
 
 a{
@@ -64,6 +63,7 @@ a:hover{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 
 
 
