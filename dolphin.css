@@ -15,6 +15,19 @@ p {
   text-align:left;
 }
 
+img {
+  height: 150px;
+  width: 500px;
+  margin: 10;
+  border-color: #9daecc;
+  border-radius: 50px;
+  border-style: dashed;
+  display: block;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+
 li {
   font-family:cursive;
   border-style:solid;
@@ -31,16 +44,16 @@ li:hover {
 
 .d-pics {
   display: flex;
-  flex-wrap: wrap;         /* allows images to wrap to new lines if needed */
-  justify-content: center; /* keeps the whole row centered */
-  gap: 20px;               /* evenly spaces out images */
+  flex-wrap: wrap;        
+  justify-content: center; 
+  gap: 20px;               
 }
 
 .d-pics img {
-  width: 650px;            /* fixed size like you had */
+  width: 650px;           
   height: 350px;
   border: solid rgb(14, 74, 128);
-  transition: transform 0.3s ease-in-out, border-color 0.3s; /* smoother hover */
+  transition: transform 0.3s ease-in-out, border-color 0.3s; 
 }
 
 .d-pics img:hover {
@@ -63,6 +76,7 @@ a:hover{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 
 
 
