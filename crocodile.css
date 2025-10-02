@@ -51,6 +51,7 @@ h3 {
   max-width: 800px;
   margin: 30px auto;  /* horizontally centers card */
   max-width: 800px;
+  text-align: center;
 }
 
 a{
