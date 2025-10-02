@@ -5,6 +5,17 @@ body {
   background-color: #add8e6; 
 }
 
+img {
+  height: 150px;
+  width: 500px;
+  margin: 10;
+  border-color: #9daecc;
+  border-radius: 50px;
+  border-style: dashed;
+  display: block;
+  max-width: 100%;
+  margin: 10px auto;
+}
 
 .page-container {
   padding: 20px;
