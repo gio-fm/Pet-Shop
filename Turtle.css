@@ -53,4 +53,17 @@ p {
   color: 158fd4; 
   text-align: center
 
+a{
+  font-size: 20px;
+}
+a:hover{
+  font-size: 30px;
+  color: azure;
+}
 
+.navbar{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
