@@ -72,3 +72,10 @@ a:hover{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.spics{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
