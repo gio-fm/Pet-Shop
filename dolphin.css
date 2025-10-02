@@ -4,6 +4,10 @@ body {
 
 h1 {
   font-family:cursive;
+   border-bottom: 2px solid ;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 p {
@@ -56,3 +60,4 @@ a:hover{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
