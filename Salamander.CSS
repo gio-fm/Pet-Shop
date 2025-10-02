@@ -1,0 +1,43 @@
+body {
+  background-color: #0e4a80
+}
+.site {
+ width:400px;
+  justify-content: center;
+  border-style: dashed;
+  border-radius: 50px; 
+  align-items: center;
+  
+}
+img {
+  align-content: center; 
+}
+h1,h5 {
+  text-align: center; 
+  text-decoration: underline;
+  font-family: cursive;
+    color: #158fd4; 
+}
+
+.s1{
+  width: 300px;
+}
+
+li {
+  color: #158fd4;
+  border-style: groove;
+  border-color: #ffffff;
+  background-color: #0e4a80;
+}
+
+.s1{
+  border-style: double;
+  border-radius: 20px;
+    border-color: #9daecc;
+  margin: 20px;
+}
+img:hover {
+  width: 350px;
+  border-color: #158fd4;
+  border-width: 10px;
+}
